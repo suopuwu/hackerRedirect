@@ -1,0 +1,55 @@
+body {
+    background-color: #000000;
+    color: #00ff00;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: "inconsolata";
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    color: #00ff00;
+    font-size: 5vw;
+    font-weight: normal;
+    text-transform: none;
+    font-family: "inconsolata";
+    padding: 30px;
+    word-wrap: none;
+}
+#the-box {
+    outline-style: solid;
+    outline-color: #00ff00;
+    outline-width: medium;
+    animation: box1 2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+    width: 33%;
+    height: 10%;
+}
+#bar {
+    background-color: #00ff00;
+    height: 100%;
+}
+.bar-anim {
+    -webkit-animation: bar 2s;
+    animation: bar 2s;
+}
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+@keyframes bar {
+    10% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}

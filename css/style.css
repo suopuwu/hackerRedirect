@@ -1,0 +1,88 @@
+body,
+html {
+    color: white;
+    color: rgba(256, 256, 256, 0.87);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+img {
+    padding: 10px;
+    vertical-align: top;
+}
+
+a {
+    border-bottom: 0.125em solid #73dccf;
+    color: #00bfa8;
+    text-decoration: none;
+}
+
+a:link {
+    border-bottom: 0.125em solid #73dccf;
+    color: #00bfa8;
+    text-decoration: none;
+}
+
+a:visited {
+    border-bottom: 0.125em solid #ffa64d;
+    color: #ff8000;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 0.125em solid #ff8c8c;
+    color: #ff4040;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5em;
+    font-weight: bold;
+    letter-spacing: 10px;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    flex-shrink: 3;
+}
+
+ul {
+    font-family: 'Inconsolata', monospace;
+    list-style: none;
+}
+
+.container {
+    align-items: baseline;
+    background-blend-mode: darken, normal;
+    background-position: center;
+    background-size: 100%;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+}
+
+.whitebg {
+    align-items: center;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.5);
+    flex-flow: row wrap;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.text {
+    font-size: 1em;
+    letter-spacing: 3px;
+    padding: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
