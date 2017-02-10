@@ -1,4 +1,11 @@
 $(document).ready(function() {//TODO add support for choosing the presentation num
+    /*
+    ██ ███    ██ ██ ████████ ██  █████  ██      ██ ███████  █████  ████████ ██  ██████  ███    ██
+    ██ ████   ██ ██    ██    ██ ██   ██ ██      ██    ███  ██   ██    ██    ██ ██    ██ ████   ██
+    ██ ██ ██  ██ ██    ██    ██ ███████ ██      ██   ███   ███████    ██    ██ ██    ██ ██ ██  ██
+    ██ ██  ██ ██ ██    ██    ██ ██   ██ ██      ██  ███    ██   ██    ██    ██ ██    ██ ██  ██ ██
+    ██ ██   ████ ██    ██    ██ ██   ██ ███████ ██ ███████ ██   ██    ██    ██  ██████  ██   ████*/
+
     var data = $.getJSON('json/links.json', (function () {
         data = data.responseJSON;
         var link = data.links[data.links.length - 1];
@@ -34,8 +41,16 @@ $(document).ready(function() {//TODO add support for choosing the presentation n
             setTimeout(changeMessage, (index) * ((link.duration * 1000) / messages.length), val);
         });
         function goToLink() {
-            // window.location = url;
+            window.location = url;
         }
         setTimeout(goToLink, link.duration * 1000);
+
+        var charSequence = [];
+        $(document).keydown(function (event, char) {
+            char = event.which;
+            var letter = String.fromCharCode(char);
+            charSequence.push(letter);
+            console.log(charSequence);
+        });
     }));
 });
