@@ -21,20 +21,20 @@ $(document).ready(function() {//TODO add support for choosing the presentation n
         $.each(messages, function (index, val) {
             if(val === null) {messages.splice(index, 1);}});
         $('#bar').css('animation-duration', link.duration / messages.length + 's');
-        function aaa() {
-            $('#bar').addClass('bar-anim');
-        }
+
         function changeMessage(message) {
             $('#text').html(message);
             $('#bar').removeClass('bar-anim');
-            setTimeout(aaa, 10);
+            //below is necessary for some reason to reset the animation
+            void $('#bar')[0].offsetWidth;
+            $('#bar').addClass('bar-anim');
         }
         //changes the message according to time
         $.each(messages, function (index, val) {
             setTimeout(changeMessage, (index) * ((link.duration * 1000) / messages.length), val);
         });
         function goToLink() {
-            window.location = url;
+            // window.location = url;
         }
         setTimeout(goToLink, link.duration * 1000);
     }));

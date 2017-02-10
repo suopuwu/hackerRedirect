@@ -19,7 +19,14 @@ h1 {
     font-family: "inconsolata";
     padding: 30px;
     word-wrap: none;
+    text-align: center;
+    position: relative;
+    bottom: 20%;
 }
+h1::before {
+    content: ">";
+}
+
 #the-box {
     outline-style: solid;
     outline-color: #00ff00;
@@ -29,6 +36,7 @@ h1 {
     overflow: hidden;
     width: 33%;
     height: 10%;
+    position: absolute;
 }
 #bar {
     background-color: #00ff00;
@@ -46,6 +54,9 @@ h1 {
     flex-grow: 1;
 }
 @keyframes bar {
+    0% {
+        width: 0%;
+    }
     10% {
         width: 0%;
     }
