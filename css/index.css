@@ -8,7 +8,6 @@ body {
     font-family: "inconsolata";
     height: 100%;
     width: 100%;
-    overflow: hidden;
 }
 
 h1 {
@@ -20,9 +19,8 @@ h1 {
     padding: 30px;
     word-wrap: none;
     text-align: center;
-    position: relative;
-    bottom: 20%;
 }
+
 h1::before {
     content: ">";
 }
@@ -37,22 +35,51 @@ h1::before {
     width: 33%;
     height: 10%;
     position: absolute;
+    top: 45%;
 }
+
 #bar {
     background-color: #00ff00;
     height: 100%;
 }
+
 .bar-anim {
     -webkit-animation: bar 2s;
     animation: bar 2s;
 }
+
 .container {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center;
+    justify-content: flex-start;
+    ;
     align-items: center;
     flex-grow: 1;
 }
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+.linkBox {
+    padding: 20px;
+}
+
+a:visited {
+    border-bottom: 0.125em solid #00ff00;
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
 @keyframes bar {
     0% {
         width: 0%;

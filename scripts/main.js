@@ -26,7 +26,9 @@ $(document).ready(function() {//TODO add support for choosing the presentation n
         });
         //removes null messages
         $.each(messages, function (index, val) {
-            if(val === null) {messages.splice(index, 1);}});
+            if(messages.indexOf(null) !== -1)
+                messages.splice(messages.indexOf(null), 1);
+        });
         $('#bar').css('animation-duration', link.duration / messages.length + 's');
 
         function changeMessage(message) {
@@ -43,14 +45,45 @@ $(document).ready(function() {//TODO add support for choosing the presentation n
         function goToLink() {
             window.location = url;
         }
-        setTimeout(goToLink, link.duration * 1000);
+        var linkTimeout = setTimeout(goToLink, link.duration * 1000);
 
+
+        $.each(data.links, function (index, val) {
+            $('<a class="linkBox" href="' + val.link + '">' + val.name +'</a>').appendTo('#linksContainer');
+        });
+        /*
+        ██ ███    ██ ██████  ██    ██ ████████ ███████
+        ██ ████   ██ ██   ██ ██    ██    ██    ██
+        ██ ██ ██  ██ ██████  ██    ██    ██    ███████
+        ██ ██  ██ ██ ██      ██    ██    ██         ██
+        ██ ██   ████ ██       ██████     ██    ███████*/
         var charSequence = [];
         $(document).keydown(function (event, char) {
             char = event.which;
             var letter = String.fromCharCode(char);
-            charSequence.push(letter);
-            console.log(charSequence);
+            charSequence.splice(0, 0, letter);
+            if(charSequence.length > 20)//keep length below 20
+                charSequence.splice(20, 1);
+                var counter = 0;
+                var temp = [];
+                while (counter < charSequence.length) {
+                    temp.splice(0, 0, charSequence[counter]);
+                    //tempo is the string of letters
+                    var tempo = temp.join('');
+                    if (tempo === 'SUCC') {
+                        $('#linksContainer').removeClass('hidden');
+                        $('#mainContainer').addClass('hidden');
+                        void $('linksContainer')[0];
+                        window.clearTimeout(linkTimeout);
+                    }
+                    if (tempo === 'SANIC' ||
+                    tempo === 'SKIP' ||
+                    tempo === 'FAST') {
+                        goToLink();
+                    }
+                    counter++;
+                }
+
         });
     }));
 });
