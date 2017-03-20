@@ -18,6 +18,12 @@
             "link": "https://docs.google.com/document/d/1u3HiMzUo6d-OcwBzXWCXocISLFnxhbePvMdIlXjWK24/edit?usp=sharing",
             "duration": "5",
             "messages": ["4"]
+        },
+        {
+            "name": "New Deal Paper",
+            "link": "https://docs.google.com/document/d/1zqhw0YwrWiMJU0VMUb4doNS5kY8zdIx4MvG4bbKfciA/edit?usp=sharing",
+            "duration": "5",
+            "messages": ["5"]
         }
     ],
     "messages": [
@@ -25,6 +31,7 @@
         "Hacking...(not really)",
         "Preparing snarky comment on Joseph's handwriting...",
         "Wondering why stuart agreed to this...",
-        "Check your paper before sending it to me!"
+        "Check your paper before sending it to me!",
+        "This better be good..."
     ]
 }
