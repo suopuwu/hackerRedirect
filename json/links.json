@@ -12,12 +12,19 @@
             "link": "https://docs.google.com/presentation/d/1OgXDGL656VjPdkBbzZdd3-cQ0gYvKJqkV9dPy_2tR8o/edit?usp=sharing",
             "duration": "5",
             "messages": ["0", "3"]
+        },
+        {
+            "name": "Weston needs to get his work done",
+            "link": "https://docs.google.com/document/d/1u3HiMzUo6d-OcwBzXWCXocISLFnxhbePvMdIlXjWK24/edit?usp=sharing",
+            "duration": "5",
+            "messages": ["4"]
         }
     ],
     "messages": [
         "Hacking...",
         "Hacking...(not really)",
         "Preparing snarky comment on Joseph's handwriting...",
-        "Wondering why stuart agreed to this..."
+        "Wondering why stuart agreed to this...",
+        "Check your paper before sending it to me!"
     ]
 }
