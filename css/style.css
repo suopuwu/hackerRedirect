@@ -16,26 +16,26 @@ img {
 }
 
 a {
-    border-bottom: 0.125em solid #73dccf;
-    color: #00bfa8;
+    border-bottom: 0.125em solid #00ff00;
+    color: #00ff00;
     text-decoration: none;
 }
 
 a:link {
-    border-bottom: 0.125em solid #73dccf;
-    color: #00bfa8;
+    border-bottom: 0.125em solid #00ff00;
+    color: #00ff00;
     text-decoration: none;
 }
 
 a:visited {
-    border-bottom: 0.125em solid #ffa64d;
-    color: #ff8000;
+    border-bottom: 0.125em solid #00ff00;
+    color: #00ff00;
     text-decoration: none;
 }
 
 a:hover {
-    border-bottom: 0.125em solid #ff8c8c;
-    color: #ff4040;
+    border-bottom: 0.125em solid #73dccf;
+    color: #73dccf;
     text-decoration: none;
 }
 
@@ -85,4 +85,13 @@ ul {
     padding: 30px;
     text-align: center;
     text-transform: uppercase;
+}
+
+.linkBox {
+	transition: transform, 0.5s;
+    padding: 20px;
+}
+
+.linkBox:hover {
+    transform: scale(1.2);
 }
