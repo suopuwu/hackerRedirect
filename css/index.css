@@ -70,12 +70,6 @@ h1::before {
     padding: 20px;
 }
 
-a:visited {
-    border-bottom: 0.125em solid #00ff00;
-    color: #00ff00;
-    text-decoration: none;
-}
-
 .hidden {
     display: none !important;
 }
