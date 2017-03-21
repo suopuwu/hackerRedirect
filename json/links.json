@@ -2,25 +2,29 @@
 
     "links": [
          {
-            "name": "utopia presentation english",
+            "name": "utopia presentation",
+            "subject": "english",
             "link": "https://docs.google.com/presentation/d/1kgjAt8MSihMG9Cd827kDxXz6EqXbmMsvUIBiOoemK9U/edit?usp=sharing",
             "duration": "5",
             "messages": ["0", "2"]
         },
         {
             "name": "Stu's utopian pres",
+            "subject": "english",
             "link": "https://docs.google.com/presentation/d/1OgXDGL656VjPdkBbzZdd3-cQ0gYvKJqkV9dPy_2tR8o/edit?usp=sharing",
             "duration": "5",
             "messages": ["0", "3"]
         },
         {
             "name": "Weston needs to get his work done",
+            "subject": "english",
             "link": "https://docs.google.com/document/d/1u3HiMzUo6d-OcwBzXWCXocISLFnxhbePvMdIlXjWK24/edit?usp=sharing",
             "duration": "5",
             "messages": ["4"]
         },
         {
             "name": "New Deal Paper",
+            "subject": "english",
             "link": "https://docs.google.com/document/d/1zqhw0YwrWiMJU0VMUb4doNS5kY8zdIx4MvG4bbKfciA/edit?usp=sharing",
             "duration": "5",
             "messages": ["5"]
