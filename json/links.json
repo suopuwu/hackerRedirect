@@ -28,6 +28,19 @@
             "link": "https://docs.google.com/document/d/1zqhw0YwrWiMJU0VMUb4doNS5kY8zdIx4MvG4bbKfciA/edit?usp=sharing",
             "duration": "5",
             "messages": ["5"]
+        },
+        {
+            "name": "New Deal Pres",
+            "subject": "english",
+            "link": "        {
+            "name": "New Deal Paper",
+            "subject": "english",
+            "link": "https://docs.google.com/document/d/1zqhw0YwrWiMJU0VMUb4doNS5kY8zdIx4MvG4bbKfciA/edit?usp=sharing",
+            "duration": "0",
+            "messages": ["5"]
+        }",
+            "duration": "0",
+            "messages": ["6"]
         }
     ],
     "messages": [
@@ -36,6 +49,7 @@
         "Preparing snarky comment on Joseph's handwriting...",
         "Wondering why stuart agreed to this...",
         "Check your paper before sending it to me!",
-        "This better be good..."
+        "This better be good...",
+        "loading"
     ]
 }
