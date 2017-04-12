@@ -9,32 +9,39 @@
             "messages": ["0", "2"]
         },
         {
-            "name": "Stu's utopian pres",
+            "name": "stu's utopian pres",
             "subject": "english",
             "link": "https://docs.google.com/presentation/d/1OgXDGL656VjPdkBbzZdd3-cQ0gYvKJqkV9dPy_2tR8o/edit?usp=sharing",
             "duration": "5",
             "messages": ["0", "3"]
         },
         {
-            "name": "Weston needs to get his work done",
+            "name": "weston needs to get his work done",
             "subject": "english",
             "link": "https://docs.google.com/document/d/1u3HiMzUo6d-OcwBzXWCXocISLFnxhbePvMdIlXjWK24/edit?usp=sharing",
             "duration": "5",
             "messages": ["4"]
         },
         {
-            "name": "New Deal Paper",
+            "name": "new deal paper",
             "subject": "english",
             "link": "https://docs.google.com/document/d/1zqhw0YwrWiMJU0VMUb4doNS5kY8zdIx4MvG4bbKfciA/edit?usp=sharing",
             "duration": "5",
             "messages": ["5"]
         },
         {
-            "name": "New Deal Pres",
+            "name": "new deal pres",
             "subject": "english",
             "link": "https://docs.google.com/presentation/d/1gXKiQT35wmJYmVn0rP6nNR_TZ3ZdKxjovebWKmOsVgY/edit?usp=sharing",
             "duration": "1",
             "messages": ["6"]
+        },
+        {
+            "name": "advertisement analysis",
+            "subject": "social studies",
+            "link": "https://docs.google.com/presentation/d/1gXKiQT35wmJYmVn0rP6nNR_TZ3ZdKxjovebWKmOsVgY/edit?usp=sharing",
+            "duration": "1",
+            "messages": ["7"]
         }
     ],
     "messages": [
@@ -44,6 +51,7 @@
         "Wondering why stuart agreed to this...",
         "Check your paper before sending it to me!",
         "This better be good...",
-        "loading"
+        "loading...",
+        "Wishing that I wasn't here"
     ]
 }
