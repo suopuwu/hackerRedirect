@@ -40,8 +40,8 @@
             "name": "advertisement analysis",
             "subject": "social studies",
             "link": "https://docs.google.com/presentation/d/1gXKiQT35wmJYmVn0rP6nNR_TZ3ZdKxjovebWKmOsVgY/edit?usp=sharing",
-            "duration": "1",
-            "messages": ["7"]
+            "duration": "5",
+            "messages": ["8", "7"]
         }
     ],
     "messages": [
@@ -52,6 +52,7 @@
         "Check your paper before sending it to me!",
         "This better be good...",
         "loading...",
-        "Wishing that I wasn't here"
+        "Wishing that I wasn't here...",
+        "Contemplating life..."
     ]
 }
