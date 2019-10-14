@@ -61,8 +61,8 @@
             "name": "japanese pres",
             "subject": "japanese",
             "link": "https://docs.google.com/presentation/d/1cuDyQGIMq7iTvAhpSIkX1vhSkulNLz9VWg-NsOnNt5A/edit?usp=sharing",
-            "duration": "4",
-            "messages": ["9", "8"]
+            "duration": "6",
+            "messages": ["9", "8", "10"]
         }
     ],
     "messages": [
@@ -75,6 +75,7 @@
         "loading...",
         "Wishing that I wasn't here...",
         "Contemplating life...",
-        "Generating presentation..."
+        "Generating presentation...",
+        "Purchasing brownie points..."
     ]
 }
