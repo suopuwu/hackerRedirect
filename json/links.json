@@ -63,6 +63,13 @@
             "link": "https://docs.google.com/presentation/d/1cuDyQGIMq7iTvAhpSIkX1vhSkulNLz9VWg-NsOnNt5A/edit?usp=sharing",
             "duration": "6",
             "messages": ["9", "8", "10"]
+        },
+{
+            "name": "John Adams",
+            "subject": "english",
+            "link": "https://docs.google.com/presentation/d/10-K4cCjxXWUTm1JMt1eXGlIvCW1Cvysv7jWeZPyHe90/edit?usp=drivesdk",
+            "duration": "6",
+            "messages": ["9", "10"]
         }
     ],
     "messages": [
