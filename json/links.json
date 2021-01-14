@@ -65,11 +65,11 @@
             "messages": ["9", "8", "10"]
         },
 {
-            "name": "John Adams",
-            "subject": "english",
-            "link": "https://docs.google.com/presentation/d/10-K4cCjxXWUTm1JMt1eXGlIvCW1Cvysv7jWeZPyHe90/edit?usp=drivesdk",
-            "duration": "6",
-            "messages": ["9", "10"]
+            "name": "Pape",
+            "subject": "Econ",
+            "link": "https://docs.google.com/presentation/d/1uSrC5_rWa0YtzV2oQd37MgFeCLF7kLJFWJDS9KgASFQ/edit?usp=sharing",
+            "duration": "3",
+            "messages": ["11"]
         }
     ],
     "messages": [
@@ -83,6 +83,7 @@
         "Wishing that I wasn't here...",
         "Contemplating life...",
         "Generating presentation...",
-        "Purchasing brownie points..."
+        "Purchasing brownie points...",
+        "Regretting life choices..."
     ]
 }
