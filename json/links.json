@@ -64,10 +64,17 @@
             "duration": "6",
             "messages": ["9", "8", "10"]
         },
-{
+        {
             "name": "Pape",
             "subject": "Econ",
             "link": "https://docs.google.com/presentation/d/1uSrC5_rWa0YtzV2oQd37MgFeCLF7kLJFWJDS9KgASFQ/edit?usp=sharing",
+            "duration": "3",
+            "messages": ["11"]
+        },
+        {
+            "name": "Persuasive speech",
+            "subject": "Speech",
+            "link": "https://docs.google.com/presentation/d/17DL4kvysx5loKVpI-AKIZZmM0QdCe7JVngP5QRbxTA4/edit?usp=sharing",
             "duration": "3",
             "messages": ["11"]
         }
