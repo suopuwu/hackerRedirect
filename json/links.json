@@ -77,6 +77,12 @@
             "link": "https://docs.google.com/presentation/d/17DL4kvysx5loKVpI-AKIZZmM0QdCe7JVngP5QRbxTA4/edit?usp=sharing",
             "duration": "3",
             "messages": ["11"]
+        }, {
+            "name": "Suop.boo",
+            "subject": "life idk",
+            "link": "https://suop.boo",
+            "duration": "5",
+            "messages": ["0", "10", "12"]
         }
     ],
     "messages": [
@@ -91,6 +97,7 @@
         "Contemplating life...",
         "Generating presentation...",
         "Purchasing brownie points...",
-        "Regretting life choices..."
+        "Regretting life choices...",
+        "Demonstrating my css prowess :3"
     ]
 }
